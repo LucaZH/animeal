@@ -22,15 +22,18 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      position: relative;
     }
   
     .hero-img {
       width: 75%;
       height: 75%;
+      margin-bottom: -10%;
     }
   
     .relative-1 {
-      position: absolute;
+      /* position: absolute; */
       top: 20%;
       width: 100%;
       display: flex;
@@ -51,7 +54,7 @@
       background-color: #774040;
       border-top-left-radius: 6px;
       border-top-right-radius: 6px;
-      top: 65%;
+      top: 75%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: -1;
