@@ -25,12 +25,15 @@
     .navbar .nav-center {
         display: flex;
         width: max-content;
-        gap: 20px;
+        gap: 8em;
+        flex-wrap: wrap;
     }
 
     .navbar .nav-item {
         text-decoration: none;
         color: #121212;
+        font-family: 'Jura', sans-serif;
+        font-size: 1em;
     }
     .navbar .nav-options{
         display: flex;
