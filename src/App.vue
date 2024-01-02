@@ -21,6 +21,12 @@ const characters: CharacterType[] = [
     image: 'luffy.png',
     color: '#774040',
     reversed: false,
+    imgpower: [
+      {img: 'power1.png'},
+      {img: 'haki-de-lobservation-480x247.png'},
+      {img: 'maxresdefault.png'},
+      {img: 'gomu_gomu_no_mi_fruit_by_kaiboiii_d8yuaql-pre.png'},
+    ],
   },
   {
     title: '“Pirate Hunter”',
@@ -31,7 +37,13 @@ const characters: CharacterType[] = [
     ],
     image: 'zoro.png',
     color: '#789378',
-    reversed: true
+    reversed: true,
+    imgpower: [
+      {img: 'powerzoro1.png'},
+      {img: 'powerzoro2.png'},
+      {img: 'powerzoro3.png'},
+      {img: 'powerzoro4.png'},
+    ],
   },
   {
     title: '“Black Leg”',
@@ -42,7 +54,13 @@ const characters: CharacterType[] = [
     ],
     image: 'sanji.png',
     color: '#C7BE73',
-    reversed: false
+    reversed: false,
+    imgpower: [
+      {img: 'powersanji1.png'},
+      {img: 'powersanji2.png'},
+      {img: 'powersanji3.png'},
+      {img: 'powersanji4.png'},
+    ],
   },
 ];
 </script>

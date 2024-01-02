@@ -5,7 +5,13 @@
         <div class="info-character">
             <p class="character-title">{{ char.title }}</p>
             <h1 :style="{ color: char.color }" class="character-name">{{ char.name }}</h1>
-            <p>Powers:</p>
+            <div class="listsimple">
+                <p>Powers:</p>
+                <div v-for="img in char.imgpower" :key="img.img">
+                    <img :src="'/src/assets/img/' + img.img" alt="">
+                </div>
+            </div>
+            
             <div v-for="power in char.power" :key="power.name">
               <strong>{{ power.name }}:</strong> 
               <p>{{ power.description }}</p>
@@ -58,6 +64,12 @@
   .reversed .character-img {
     position: relative;
     left: 10%;
+  }
+  .listsimple{
+    display: flex;
+    gap: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
   }
   </style>
   
