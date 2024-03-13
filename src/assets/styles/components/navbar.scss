@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    align-items: center;
+}
+
+.navbar .nav-center {
+    display: flex;
+    width: max-content;
+    gap: 8em;
+    flex-wrap: wrap;
+}
+
+.navbar .nav-item {
+    text-decoration: none;
+    color: #121212;
+    font-family: "Jura", sans-serif;
+    font-size: 1em;
+}
+.navbar .nav-options {
+    display: flex;
+    gap: 20px;
+}
